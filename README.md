@@ -2,21 +2,32 @@
 
 My goal is to build a compact satellite-inspired device where every component has a real purpose and the necessary sensors remain exposed to interact with the environment.
 
+
 **Current hardware:**
 
 🔹 Raspberry Pi Pico W
+
 🔹 PIR motion sensor
+
 🔹 DHT11 temperature & humidity sensor
+
 🔹 16×2 I2C LCD display
+
 🔹 Status LED
+
 🔹 Passive buzzer
+
 
 **Current features:**
 
 ✅ Motion detection
+
 ✅ Audible and visual intrusion alarm
+
 ✅ Real-time temperature and humidity monitoring
+
 ✅ LCD interface that alternates between the satellite status and environmental data
+
 
 **Next milestone:**
 
