@@ -9,13 +9,13 @@
 
 # ✨ Features
 
-The device can monitor:
+**The device can monitor:**
 
-🌡️ Temperature
+🌡️ -Temperature
 
-💧 Humidity
+💧 -Humidity
 
-🔐 Motion (Technically it detects presence using a PIR sensor, but "motion detection" is easier to understand.)
+🔐 -Motion (Technically it detects presence using a PIR sensor, but "motion detection" is easier to understand.)
 
 ![Guardian Satellite](Images/satellite.jpg)
 
