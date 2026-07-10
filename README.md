@@ -185,27 +185,6 @@ Returns:
 - Humidity
 - Current mode
 
----
-
-# 📦 Project Structure
-
-```
-Guardian-Satellite/
-
-├── README.md
-├── BOM.md
-├── WIRING.md
-│
-├── firmware/
-│   └── main.py
-│
-├── images/
-│   ├── satellite.png
-│   └── 
-```
-
----
-
 # 🚧 Current Status
 
 ## Completed ✅
@@ -241,10 +220,12 @@ A miniature satellite that watches over its environment. 🛰️
 
 # 👨‍🚀 Author
 
-Created by **Andrea Esteissy Rosario Martinez*
+Created by **Andrea Esteissy Rosario Martinez**
 
 Project developed with:
 - Raspberry Pi Pico W
 - MicroPython
 - Electronics
 - Curiosity 🚀
+
+PD: I put too much effort in this README cause I wanted that look *Profeshonal* sooooooooooo, pls READ IT! thanks for watching ;)
