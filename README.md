@@ -1,40 +1,246 @@
-# Satellite 🛰️
+# 🛰️ Guardian Satellite - SATELIDOM ESTEISSY
 
-My goal is to build a compact satellite-inspired device where every component has a real purpose and the necessary sensors remain exposed to interact with the environment.
+![Guardian Satellite](images/satellite.png)
 
+> A small autonomous satellite system designed to monitor its environment, detect movement, and communicate important events.
 
-**Current hardware:**
+**Guardian Satellite** is an embedded system based on the **Raspberry Pi Pico W** that combines environmental monitoring, security features, and wireless communication in a compact satellite-inspired device.
 
-🔹 Raspberry Pi Pico W
+The project was created as a functional prototype where every component has a purpose: monitoring, detecting, displaying, and communicating.
 
-🔹 PIR motion sensor
+---
 
-🔹 DHT11 temperature & humidity sensor
+# ✨ Features
 
-🔹 16×2 I2C LCD display
+## 🌡️ Environmental Monitoring
 
-🔹 Status LED
+The satellite continuously monitors:
 
-🔹 Passive buzzer
+- Temperature
+- Humidity
 
+Data is displayed on an integrated LCD screen.
 
-**Current features:**
+---
 
-✅ Motion detection
+## 🔐 Guardian Mode
 
-✅ Audible and visual intrusion alarm
+The security system can:
 
-✅ Real-time temperature and humidity monitoring
+- Detect motion using a PIR sensor.
+- Activate a visual alert.
+- Activate an audible alarm.
+- Send remote notifications (optional).
 
-✅ LCD interface that alternates between the satellite status and environmental data
+---
 
+## 📡 Wireless Communication
 
-**Next milestone:**
+The Raspberry Pi Pico W provides WiFi connectivity.
 
-📡 Integrate Telegram notifications so the satellite can send real-time intrusion alerts directly to my phone. After that, I’ll move on to 3D printing the enclosure, assembling the final hardware, and testing the complete prototype.
+The system can:
 
-It’s exciting to see this idea evolve from a concept into a working project (a sexy one).
+- Receive remote commands.
+- Send status information.
+- Send motion alerts through Telegram.
 
-There is still work to do, but every iteration gets me one step closer to the final satellite.
+⚠️ **Privacy Notice**
 
-Feedback and suggestions are always welcome!
+The Telegram version does not record audio, video, images, or personal information.
+
+The system only sends:
+- Device status.
+- Sensor readings.
+- Motion detection alerts.
+
+Communication is only performed through the Telegram Bot API configured by the owner (For privacity).
+
+---
+
+# 🧠 System Overview
+
+The Guardian Satellite works independently from WiFi.
+
+Without internet:
+
+✅ Motion detection works  
+✅ Temperature monitoring works  
+✅ Humidity monitoring works  
+✅ LCD works  
+✅ Alarm system works  
+
+WiFi is only used for remote communication features.
+
+---
+
+# 🔧 Hardware
+
+## Main Components
+
+| Component | Function |
+|-----------|----------|
+| Raspberry Pi Pico W | Main controller and WiFi communication |
+| PIR Motion Sensor | Motion detection |
+| DHT11 Sensor | Temperature and humidity measurement |
+| 16x2 LCD I2C | Information display |
+| Passive Buzzer | Audible alarm |
+| LED | Status indicator |
+| 10kΩ Resistor | DHT11 pull-up resistor |
+
+---
+
+# 🔌 Connections
+
+| Raspberry Pi Pico W | Component | Pin |
+|---------------------|-----------|-----|
+| GP0 | LCD I2C | SDA |
+| GP1 | LCD I2C | SCL |
+| VBUS | LCD I2C | VCC |
+| GND | LCD I2C | GND |
+| GP15 | PIR Sensor | OUT |
+| VBUS | PIR Sensor | VCC |
+| GND | PIR Sensor | GND |
+| GP16 | LED | Positive |
+| GND | LED | Negative |
+| GP17 | Passive Buzzer | Signal |
+| GND | Passive Buzzer | GND |
+| GP18 | DHT11 | DATA |
+| 3V3 OUT | DHT11 | VCC |
+| GND | DHT11 | GND |
+
+### DHT11 Configuration
+
+A **10kΩ pull-up resistor** is connected between:
+
+- VCC
+- DATA
+
+---
+
+# 🔋 Portable Power System
+
+The final version is designed to work without a computer.
+
+Planned power system:
+
+- 🔋 18650 Li-ion Battery
+- 🔌 18650 Battery Holder with ON/OFF Switch
+- ⚡ 18650 Battery Charger
+
+Connection:
+
+| Battery | Pico W |
+|---------|--------|
+| Positive (+) | VSYS |
+| Negative (-) | GND |
+
+---
+
+# 💻 Software
+
+## Programming
+
+- MicroPython
+- Thonny IDE
+
+## Libraries
+
+- DHT11 MicroPython Library
+- LCD I2C Library
+- urequests
+- Telegram Bot API
+
+---
+
+# 📱 Telegram Integration
+
+The Telegram version allows the satellite to communicate remotely.
+
+Available commands:
+
+```
+/activar
+```
+
+Activates Guardian Mode.
+
+```
+/desactivar
+```
+
+Disables Guardian Mode.
+
+```
+/status
+```
+
+Returns:
+
+- System status
+- Temperature
+- Humidity
+- Current mode
+
+---
+
+# 📦 Project Structure
+
+```
+Guardian-Satellite/
+
+├── README.md
+├── BOM.md
+├── WIRING.md
+│
+├── firmware/
+│   └── main.py
+│
+├── images/
+│   ├── satellite.png
+│   └── 
+```
+
+---
+
+# 🚧 Current Status
+
+## Completed ✅
+
+- [x] Raspberry Pi Pico W integration
+- [x] PIR motion detection
+- [x] Temperature monitoring
+- [x] Humidity monitoring
+- [x] LCD interface
+- [x] LED status system
+- [x] Audible alarm
+- [x] Telegram communication
+- [x] Remote commands
+
+## Planned 🔜
+
+- [ ] 3D printed satellite enclosure
+- [ ] Portable battery system
+- [ ] Final soldered version
+- [ ] Improved power management
+
+---
+
+# 🌌 Vision
+
+The Guardian Satellite is more than a sensor box.
+
+It is a small autonomous monitoring system designed to demonstrate how embedded electronics, programming, communication, and engineering can work together in a compact device.
+
+A miniature satellite that watches over its environment. 🛰️
+
+---
+
+# 👨‍🚀 Author
+
+Created by **Andrea Esteissy Rosario Martinez*
+
+Project developed with:
+- Raspberry Pi Pico W
+- MicroPython
+- Electronics
+- Curiosity 🚀
