@@ -49,9 +49,6 @@ This document contains all components required to build the Guardian Satellite.
 | Soldering Iron | 1 | ⏳ Needed | Permanent connections |
 | Solder Wire | 1 | ⏳ Needed | Solder electronic components |
 | Soldering Flux | 1 | ⏳ Optional | Improve solder quality |
-| Wire Cutter | 1 | ⏳ Needed | Cutting wires |
-| Wire Stripper | 1 | ⏳ Needed | Removing wire insulation |
-| Heat Shrink Tubing | Several | ⏳ Needed | Insulating solder joints |
 
 ---
 
@@ -60,7 +57,6 @@ This document contains all components required to build the Guardian Satellite.
 | Component | Quantity | Status | Purpose |
 |-----------|:--------:|:------:|---------|
 | 3D Printed Satellite Enclosure | 1 | ⏳ Planned | Protect and contain electronics |
-| Mounting Hardware | As needed | ⏳ Planned | Secure components |
 
 ---
 
