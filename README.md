@@ -34,6 +34,30 @@ If you don't want to spend time setting that up, don't worry! The version availa
 
 ---
 
+# Directory:
+
+
+**/CAD** 
+-Satelite.f3z 
+-Satelite.step
+
+
+**/firmware**
+-main.py
+
+**/Images**
+-(There are my github images)
+
+**/Production**
+-Base.stl
+-Cuerpo.stl
+-Panel1.stl
+-Panel2.stl
+-Tapa.stl
+-main.py
+
+  ---
+
 I spent a long time working on this satellite, even before I started building it. I hope you enjoy it as much as I enjoyed creating it.
 
 # Created by Andrea Esteissy Rosario Martinez
