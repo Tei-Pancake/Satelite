@@ -1,6 +1,6 @@
 # 🛰️ Guardian Satellite - SATELIDOM ESTEISSY
 
-![Guardian Satellite](images/satellite.png)
+![Guardian Satellite](Images/satellite.jpg)
 
 > A small autonomous satellite system designed to monitor its environment, detect movement, and communicate important events.
 
@@ -11,6 +11,8 @@ The project was created as a functional prototype where every component has a pu
 ---
 
 # ✨ Features
+
+![CAD Model](Images/cad.png)
 
 ## 🌡️ Environmental Monitoring
 
@@ -24,6 +26,8 @@ Data is displayed on an integrated LCD screen.
 ---
 
 ## 🔐 Guardian Mode
+
+![Guardian](Images/guardian.jpg)
 
 The security system can:
 
