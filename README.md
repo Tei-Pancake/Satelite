@@ -1,81 +1,54 @@
-# 🛰️ Guardian Satellite - SATELIDOM ESTEISSY
+# 🛰️ SATELIDOM
+
+![CAD Model](Images/cad.png)
+> A cute, compact, square-shaped satellite designed to monitor temperature, humidity, and movement, and alert me whenever someone enters my room while I'm away from my desk.
+
+**SATELIDOM** is a satellite-inspired project powered by a Raspberry Pi Pico W.
+
+---
+
+✨ Features
+
+The device can monitor:
+
+🌡️ Temperature
+
+💧 Humidity
+
+🔐 Motion (Technically it detects presence using a PIR sensor, but "motion detection" is easier to understand.)
 
 ![Guardian Satellite](Images/satellite.jpg)
 
-> A small autonomous satellite system designed to monitor its environment, detect movement, and communicate important events.
+---
 
-**Guardian Satellite** is an embedded system based on the **Raspberry Pi Pico W** that combines environmental monitoring, security features, and wireless communication in a compact satellite-inspired device.
+It also has several features that can be controlled from a phone:
 
-The project was created as a functional prototype where every component has a purpose: monitoring, detecting, displaying, and communicating.
+* Enable or disable motion detection ( useful when I'm at my desk and don't want to hear the *beep beep*)
+* Check the current temperature and humidity remotely.
+
+All of this is possible through a Telegram bot.
+
+I can't make my bot public because it's configured specifically for **MY** satellite and contains sensitive information, but you can easily create your own Telegram bot if you'd like to build this project.
+
+If you don't want to spend time setting that up, don't worry! The version available in this GitHub repository is a fully functional **offline version**, so it works perfectly even without WiFi.
 
 ---
 
-# ✨ Features
+I spent a long time working on this satellite, even before I started building it. I hope you enjoy it as much as I enjoyed creating it.
 
-![CAD Model](Images/cad.png)
+Created by **Andrea Esteissy Rosario Martinez**
 
-## 🌡️ Environmental Monitoring
+Built with:
 
-The satellite continuously monitors:
+* Raspberry Pi Pico W
+* MicroPython
+* Electronics
+* Curiosity 🚀
 
-- Temperature
-- Humidity
+**PD:** I put too much effort in this README cause I wanted that look *Profeshonal* sooooooooooo, pls READ IT! thanks for watching ;) 
 
-Data is displayed on an integrated LCD screen.
 
----
 
-## 🔐 Guardian Mode
-
-![Guardian](Images/guardian.jpg)
-
-The security system can:
-
-- Detect motion using a PIR sensor.
-- Activate a visual alert.
-- Activate an audible alarm.
-- Send remote notifications (optional).
-
----
-
-## 📡 Wireless Communication
-
-The Raspberry Pi Pico W provides WiFi connectivity.
-
-The system can:
-
-- Receive remote commands.
-- Send status information.
-- Send motion alerts through Telegram.
-
-⚠️ **Privacy Notice**
-
-The Telegram version does not record audio, video, images, or personal information.
-
-The system only sends:
-- Device status.
-- Sensor readings.
-- Motion detection alerts.
-
-Communication is only performed through the Telegram Bot API configured by the owner (For privacity).
-
----
-
-# 🧠 System Overview
-
-The Guardian Satellite works independently from WiFi.
-
-Without internet:
-
-✅ Motion detection works  
-✅ Temperature monitoring works  
-✅ Humidity monitoring works  
-✅ LCD works  
-✅ Alarm system works  
-
-WiFi is only used for remote communication features.
-
----
 
 # 🔧 Hardware
 
