@@ -7,7 +7,7 @@
 
 ---
 
-✨ Features
+# ✨ Features
 
 The device can monitor:
 
@@ -36,7 +36,7 @@ If you don't want to spend time setting that up, don't worry! The version availa
 
 I spent a long time working on this satellite, even before I started building it. I hope you enjoy it as much as I enjoyed creating it.
 
-Created by **Andrea Esteissy Rosario Martinez**
+# Created by Andrea Esteissy Rosario Martinez
 
 Built with:
 
