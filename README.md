@@ -1,4 +1,7 @@
 # 🛰️ SATELIDOM
+![Sexy Zine](Images/Zine.png)
+
+---
 
 ![CAD Model](Images/cad.png)
 > A cute, compact, square-shaped satellite designed to monitor temperature, humidity, and movement, and alert me whenever someone enters my room while I'm away from my desk.
