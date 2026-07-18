@@ -75,7 +75,7 @@ Jumpers, jumpers, JUST JUMPERS AND MORE JUMPERS!
 
 ![Wiring](Images/Asemmbly.png)
 
-For read were everything is conected, go to **wiring.md!**
+For read were everything is conected, go to [wiring.md!](https://github.com/Tei-Pancake/Satelite/blob/main/WIRING.md)
 
 ---
 
