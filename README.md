@@ -3,6 +3,14 @@
 
 ---
 
+Being from the Dominican Republic, it's not always easy to learn about space and aerospace engineering, even though those subjects have always fascinated me. Because of that, I started teaching myself electronics.
+
+I enjoy building projects that solve real problems, even if they're simple. In my case, I wanted a reliable way to monitor the temperature in my room and know when someone had entered it. My temperature readings were inconsistent, and my sister occasionally borrowed my things without me knowing.
+
+So I built **SATELIDOM**: a small autonomous satellite-inspired system that monitors temperature and humidity, detects motion, displays information on an LCD, and can optionally send Telegram notifications and receive remote commands through WiFi.
+
+---
+
 ![CAD Model](Images/cad.png)
 > A cute, compact, square-shaped satellite designed to monitor temperature, humidity, and movement, and alert me whenever someone enters my room while I'm away from my desk.
 
