@@ -73,7 +73,9 @@ If you don't want to spend time setting that up, don't worry! The version availa
 
 Jumpers, jumpers, JUST JUMPERS AND MORE JUMPERS!
 
-![Wiring](Images/wiring.jpg)
+![Wiring](Images/Asemmbly.png)
+
+For read were everything is conected, go to wiring.md!
 
 ---
 
