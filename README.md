@@ -1,5 +1,5 @@
 # 🛰️ SATELIDOM
-![Sexy Zine](Images/Zine.png)
+![Sexy Zine](Images/ZineN.png)
 
 ---
 
