@@ -68,7 +68,11 @@ If you don't want to spend time setting that up, don't worry! The version availa
 -main.py
 
   ---
+# 🧾 Bill of Materials (BOM)
 
+Do you want to build this and you dont know how? dont worry bro, I got u! **Prices in USD**
+[BOM.md!]((https://github.com/Tei-Pancake/Satelite/blob/main/BOM.md)
+---
 # Wiring
 
 Jumpers, jumpers, JUST JUMPERS AND MORE JUMPERS!
